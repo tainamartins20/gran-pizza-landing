@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gran Pizza - Pizza Artesanal Delivery</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header-fixed">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-fire-flame-curved"></i>
+                </div>
+                <h1><span>Gran</span> Pizza</h1>
+            </div>
+
+            <button class="btn-cta" onclick="abrirWhatsApp()">
+                <i class="fab fa-whatsapp"></i>
+                Peça Agora
+            </button>
+        </div>
+    </div>
+</header>
+
+<section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text fade-in-up">
+                <h2 class="hero-title">
+                    Pizza Artesanal
+                    <span class="hero-highlight">Direto do Forno</span>
+                </h2>
+                <p class="hero-subtitle">
+                    Cada fatia carrega a essência da Itália e o carinho de quem ama pizza de verdade.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('cardapio')">
+                        <i class="fas fa-pizza-slice"></i> Ver Cardápio
+                    </button>
+                    <button class="btn-secondary" onclick="abrirWhatsApp()">
+                        <i class="fas fa-phone"></i> Peça Agora
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up">
+                <img src="assets/img/hero-img.jpg" alt="Pizza deliciosa saindo do forno">
+                <div class="delivery-badge">
+                    <i class="fas fa-stopwatch"></i> 30min
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="cardapio" class="cardapio-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Nosso Cardápio</h3>
+                <p>Excelência em cada fatia: ingredientes cuidadosamente escolhidos para um sabor incomparável</p>
+            </div>
+
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="mais-vendidas">Mais Vendidas</button>
+                <button class="filter-btn" data-category="promocoes">Promoções</button>
+                <button class="filter-btn" data-category="especiais">Especiais</button>
+                <button class="filter-btn" data-category="todas">Todas</button>
+            </div>
+
+            <div class="pizza-grid" id="pizzaGrid">
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="promocoes" class="promocoes-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Promoções Especiais</h3>
+                <p>Ofertas imperdíveis para você economizar</p>
+            </div>
+
+            <div class="promocoes-grid">
+                <div class="promocao-card">
+                    <div class="promocao-header">
+                        <span class="promocao-emoji">🍕</span>
+                        <div>
+                            <h4>Combo Família</h4>
+                            <p>2 Pizzas Grandes + 2L Refrigerante</p>
+                        </div>
+                    </div>
+                    <div class="promocao-footer">
+                        <div class="precos">
+                            <span class="preco-original">R$ 89,80</span>
+                            <span class="preco-promocional">R$ 69,90</span>
+                        </div>
+                        <button class="btn-promocao" onclick="pedirPromocao('Combo Família', '69,90')">
+                            Pedir Agora
+                        </button>
+                    </div>
+                </div>
+
+                <div class="promocao-card">
+                    <div class="promocao-header">
+                        <span class="promocao-emoji">🎯</span>
+                        <div>
+                            <h4>Terça da Pizza</h4>
+                            <p>Na compra de 1, leve 2 pizzas médias</p>
+                        </div>
+                    </div>
+                    <div class="promocao-footer">
+                        <div class="precos">
+                            <span class="promocao-dia">Toda terça-feira</span>
+                            <span class="desconto">50% OFF</span>
+                        </div>
+                        <button class="btn-promocao" onclick="pedirPromocao('Terça da Pizza')">
+                            Saiba Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pizzaria Gran Pizza. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

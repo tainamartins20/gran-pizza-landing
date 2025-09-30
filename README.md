@@ -5,7 +5,7 @@ O objetivo do projeto é simular um site moderno e responsivo para delivery de p
 
 ## 🔗 Visualizar Projeto
 
-[Visualizar Projeto]()
+[Visualizar Projeto](https://tainamartins20.github.io/gran-pizza-landing/)
 
 ---
 

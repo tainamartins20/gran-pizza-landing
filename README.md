@@ -75,13 +75,13 @@ gran-pizza-landing-page/
 1. Faça o download ou clone o repositório:
 
 ```bash
-git clone https://github.com/tainamartins20/luma-store-landing.git
+git clone https://github.com/tainamartins20/gran-pizza-landing.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd luma-store
+cd gran-pizza-landing
 ```
 
 3. Abra o arquivo index.html no navegador de sua preferência.

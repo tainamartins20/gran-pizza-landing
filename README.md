@@ -10,13 +10,24 @@ O objetivo do projeto é simular um site moderno e responsivo para delivery de p
 ## 📸 Screenshots
 
 ### Página Inicial
-![Hero Section](assets/img/hero-img.jpg)
+<p>
+  <img width="800" alt="1" src="https://github.com/user-attachments/assets/f9786b0a-a515-41c8-9a77-103523ca0b61" />
+</p>
 
 ### Cardápio Dinâmico
-![Cardápio](assets/img/pizza1.jpg)
+<p>
+  <img width="800" alt="2" src="https://github.com/user-attachments/assets/75439df4-394c-4e4f-82f2-31dfcea286fd" />
+</p>
 
 ### Promoções Especiais
-![Promoções](assets/img/pizza4.jpg)
+<p>
+  <img width="800" alt="3" src="https://github.com/user-attachments/assets/46e47197-cc78-42f3-ac7f-8cc5fed0d073" />
+</p>
+
+### Versão Mobile
+<p>
+<img width="582" alt="kk" src="https://github.com/user-attachments/assets/7c20f197-a69f-42d1-be09-a33ac181c838" />
+</p>
 
 
 ---

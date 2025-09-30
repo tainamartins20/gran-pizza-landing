@@ -3,7 +3,9 @@
 Landing Page fictícia para a pizzaria **Gran Pizza**, criada com HTML, CSS e JavaScript.  
 O objetivo do projeto é simular um site moderno e responsivo para delivery de pizzas artesanais, com cardápio interativo, promoções e integração direta com o WhatsApp.
 
-👉 **Acesse o projeto online:** [Gran Pizza - GitHub Pages](https://tainamartins20.github.io/)
+## 🔗 Visualizar Projeto
+
+[Visualizar Projeto]()
 
 ---
 

@@ -68,25 +68,22 @@ gran-pizza-landing-page/
 │       ├── pizza1.jpg
 │       ├── pizza2.jpg
 │       └── ...
-📦 Como Usar
-Clone este repositório:
+```
 
-bash
-Copiar código
-git clone https://github.com/tainamartins20/gran-pizza.git
-Acesse a pasta do projeto:
+## ⚙️ Como Executar o Projeto
 
-bash
-Copiar código
-cd gran-pizza
-Abra o arquivo index.html no navegador.
+1. Faça o download ou clone o repositório:
 
-🎯 Melhorias Futuras
-Implementar formulário de contato.
+```bash
+git clone https://github.com/tainamartins20/luma-store-landing.git
+```
 
-Adicionar integração real com sistema de pedidos.
+2. Acesse a pasta do projeto:
 
-Criar painel administrativo para gerenciar o cardápio.
+```bash
+cd luma-store
+```
 
-👩‍💻 Autor(a)
-Projeto desenvolvido por Taina Martins 🚀
+3. Abra o arquivo index.html no navegador de sua preferência.
+
+Desenvolvido por Tainá Martins.
